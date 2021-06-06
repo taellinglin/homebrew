@@ -1,3 +1,0 @@
-graphics/cursor.bmp
-578
-1622324748.38

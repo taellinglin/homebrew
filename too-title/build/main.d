@@ -53,6 +53,9 @@ main.o: C:/butano/homebrew/too-title/src/main.cpp \
  C:/butano/butano/include/bn_unordered_map.h \
  C:/butano/butano/include/bn_power_of_two.h \
  C:/butano/butano/include/bn_unordered_map_fwd.h \
+ C:/butano/butano/include/bn_display.h \
+ c:\butano\butano\hw\include\bn_hw_display_constants.h \
+ C:/butano/butano/include/bn_common.h \
  C:/butano/butano/include/bn_regular_bg_ptr.h \
  C:/butano/butano/include/bn_regular_bg_actions.h \
  C:/butano/butano/include/bn_regular_bg_ptr.h \
@@ -72,11 +75,19 @@ main.o: C:/butano/homebrew/too-title/src/main.cpp \
  C:/butano/butano/include/bn_affine_bg_ptr.h \
  C:/butano/butano/include/bn_affine_bg_map_ptr.h \
  C:/butano/butano/include/bn_affine_bg_map_cell.h \
+ C:/butano/butano/include/bn_string_view.h \
+ C:/butano/butano/include/bn_vector.h \
  C:/butano/homebrew/too-title/build/bn_regular_bg_items_background.h \
  C:/butano/butano/include/bn_regular_bg_item.h \
  C:/butano/homebrew/too-title/build/bn_regular_bg_items_foreground.h \
  C:/butano/homebrew/too-title/build/bn_regular_bg_items_midground.h \
- C:/butano/homebrew/too-title/build/bn_sprite_items_cursor.h \
+ C:/butano/homebrew/too-title/build/bn_regular_bg_items_summerstage.h \
+ C:/butano/homebrew/too-title/build/bn_regular_bg_items_summerstage2.h \
+ C:/butano/homebrew/too-title/build/bn_affine_bg_items_seasonstileset.h \
+ C:/butano/butano/include/bn_affine_bg_item.h \
+ C:/butano/butano/include/bn_affine_bg_map_item.h \
+ C:/butano/butano/include/bn_affine_bg_tiles_item.h \
+ C:/butano/homebrew/too-title/build/bn_sprite_items_cursor_right.h \
  C:/butano/butano/include/bn_sprite_item.h \
  C:/butano/homebrew/too-title/build/bn_sprite_items_logo_p1.h \
  C:/butano/homebrew/too-title/build/bn_sprite_items_logo_p2.h \
@@ -87,8 +98,7 @@ main.o: C:/butano/homebrew/too-title/src/main.cpp \
  C:/butano/homebrew/too-title/build/bn_sound_items.h \
  C:/butano/butano/include/bn_sound_item.h \
  C:/butano/homebrew/too-title/build/bn_sprite_items_bullet.h \
- c:\butano\common\include\info.h C:/butano/butano/include/bn_vector.h \
- C:/butano/butano/include/bn_span_fwd.h \
+ c:\butano\common\include\info.h C:/butano/butano/include/bn_span_fwd.h \
  C:/butano/butano/include/bn_sprite_ptr.h \
  c:\butano\common\include\variable_8x16_sprite_font.h \
  C:/butano/butano/include/bn_sprite_font.h \
@@ -149,6 +159,9 @@ C:/butano/butano/include/bn_config_sprite_text.h:
 C:/butano/butano/include/bn_unordered_map.h:
 C:/butano/butano/include/bn_power_of_two.h:
 C:/butano/butano/include/bn_unordered_map_fwd.h:
+C:/butano/butano/include/bn_display.h:
+c:\butano\butano\hw\include\bn_hw_display_constants.h:
+C:/butano/butano/include/bn_common.h:
 C:/butano/butano/include/bn_regular_bg_ptr.h:
 C:/butano/butano/include/bn_regular_bg_actions.h:
 C:/butano/butano/include/bn_regular_bg_ptr.h:
@@ -168,11 +181,19 @@ C:/butano/butano/include/bn_hbe_ptr.h:
 C:/butano/butano/include/bn_affine_bg_ptr.h:
 C:/butano/butano/include/bn_affine_bg_map_ptr.h:
 C:/butano/butano/include/bn_affine_bg_map_cell.h:
+C:/butano/butano/include/bn_string_view.h:
+C:/butano/butano/include/bn_vector.h:
 C:/butano/homebrew/too-title/build/bn_regular_bg_items_background.h:
 C:/butano/butano/include/bn_regular_bg_item.h:
 C:/butano/homebrew/too-title/build/bn_regular_bg_items_foreground.h:
 C:/butano/homebrew/too-title/build/bn_regular_bg_items_midground.h:
-C:/butano/homebrew/too-title/build/bn_sprite_items_cursor.h:
+C:/butano/homebrew/too-title/build/bn_regular_bg_items_summerstage.h:
+C:/butano/homebrew/too-title/build/bn_regular_bg_items_summerstage2.h:
+C:/butano/homebrew/too-title/build/bn_affine_bg_items_seasonstileset.h:
+C:/butano/butano/include/bn_affine_bg_item.h:
+C:/butano/butano/include/bn_affine_bg_map_item.h:
+C:/butano/butano/include/bn_affine_bg_tiles_item.h:
+C:/butano/homebrew/too-title/build/bn_sprite_items_cursor_right.h:
 C:/butano/butano/include/bn_sprite_item.h:
 C:/butano/homebrew/too-title/build/bn_sprite_items_logo_p1.h:
 C:/butano/homebrew/too-title/build/bn_sprite_items_logo_p2.h:
@@ -184,7 +205,6 @@ C:/butano/homebrew/too-title/build/bn_sound_items.h:
 C:/butano/butano/include/bn_sound_item.h:
 C:/butano/homebrew/too-title/build/bn_sprite_items_bullet.h:
 c:\butano\common\include\info.h:
-C:/butano/butano/include/bn_vector.h:
 C:/butano/butano/include/bn_span_fwd.h:
 C:/butano/butano/include/bn_sprite_ptr.h:
 c:\butano\common\include\variable_8x16_sprite_font.h:
