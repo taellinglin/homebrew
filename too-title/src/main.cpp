@@ -22,6 +22,7 @@
 #include "bn_string_view.h"
 #include "bn_vector.h"
 #include "bn_sprite_text_generator.h"
+#include "bn_affine_bg_map_cell.h"
 
 #include "bn_regular_bg_items_background.h"
 #include "bn_regular_bg_items_foreground.h"
@@ -173,11 +174,12 @@ void main_game()
 {
          bn::regular_bg_ptr background_bg = bn::regular_bg_items::background.create_bg(64,32);
        // background_bg.set_priority(0);
+        bn::regular_bg_ptr summerstage_tiles = bn::regular_bg_items::summerstage.create_bg(64,32);
+        bn::regular_bg_ptr summerstage2_tiles = bn::regular_bg_items::summerstage2.create_bg(64,32);
 
 
-         bn::regular_bg_ptr summerstage_tiles = bn::regular_bg_items::summerstage.create_bg(64,32);
-         bn::regular_bg_ptr summerstage2_tiles = bn::regular_bg_items::summerstage2.create_bg(64,32);
-         bn::affine_bg_ptr seasons_tileset = bn::affine_bg_items::seasonstileset.create_bg(256,256);
+        // bn::affine_bg_ptr seasons_tileset = bn::affine_bg_items::seasonstileset.create_bg(256,256);
+         
 
 
         bn::sprite_text_generator text_generator(variable_8x16_sprite_font);
@@ -194,7 +196,7 @@ void main_game()
 
             // generate the new text
             //text_generator.generate(0, -40, currentCell, text_sprites);
-
+            
             if(bn::keypad::right_held())
             {
                 if (summerstage_tiles.x() < (summerstage_tiles.dimensions().width() - bn::display::width()))
@@ -230,6 +232,7 @@ void main_game()
                     summerstage2_tiles.set_y(summerstage2_tiles.y() + 1);
                 }
             }
+            
             bn::core::update();
         }
 
