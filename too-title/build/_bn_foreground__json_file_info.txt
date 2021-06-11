@@ -1,3 +1,0 @@
-graphics/foreground.json
-32
-1622324291.8

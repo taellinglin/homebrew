@@ -1,3 +1,0 @@
-graphics/logo_p1.json
-47
-1622408240.01

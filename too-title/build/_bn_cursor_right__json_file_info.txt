@@ -1,3 +1,0 @@
-graphics/cursor_right.json
-44
-1622418170.21

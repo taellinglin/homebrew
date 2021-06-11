@@ -1,3 +1,0 @@
-graphics/logo_p4.json
-47
-1622408255.23

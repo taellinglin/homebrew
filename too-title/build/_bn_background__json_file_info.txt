@@ -1,3 +1,0 @@
-graphics/background.json
-32
-1622324299.0

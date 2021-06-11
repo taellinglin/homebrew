@@ -1,3 +1,0 @@
-graphics/logo_p2.json
-47
-1622408247.92

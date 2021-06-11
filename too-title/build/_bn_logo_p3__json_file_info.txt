@@ -1,3 +1,0 @@
-graphics/logo_p3.json
-47
-1622408268.84

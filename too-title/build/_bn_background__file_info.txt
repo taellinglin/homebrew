@@ -1,3 +1,0 @@
-graphics/background.bmp
-32882
-1622324827.54

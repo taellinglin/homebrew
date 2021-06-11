@@ -1,3 +1,0 @@
-graphics/cursor_right.bmp
-578
-1622418114.26

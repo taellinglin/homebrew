@@ -1,3 +1,0 @@
-graphics/midground.bmp
-32838
-1622329094.01
